@@ -1,0 +1,111 @@
+@media (min-width: 1800px) {
+    .container {
+        width: 1600px;
+    }
+}
+
+.sidefilter {
+    background-color: white;
+    border-width: 0;
+}
+
+.filter-icon {
+    display: none;
+}
+
+#toc_filter_input {
+    border: 1px solid #a9a9a9;
+    padding: 0 10px;
+    height: 36px;
+}
+
+.sidetoc {
+    background-color: white;
+    border-width: 0;
+}
+
+body .toc {
+    background-color: white;
+    margin: 0;
+}
+
+.toc .level1 > li {
+    font-weight: normal;
+}
+
+    .toc .level1 > li > a {
+        color: #343434;
+    }
+
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+}
+
+.navbar-brand {
+    background-image: url(DockShell_48x.png);
+    background-repeat: no-repeat;
+    min-width: 48px;
+}
+
+header .navbar {
+    border-width: 1px 0 1px 0;
+}
+
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
+}
+
+    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-text {
+        color: black;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+            color: black;
+            text-decoration: underline;
+            background-color: transparent;
+        }
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+.article {
+    margin-top: 107px;
+}
+
+article > h1:first-child {
+    margin-top: 0;
+}
+
+.article.grid-right {
+    margin-left: 330px;
+}
+
+.level1.breadcrumb {
+    padding-left: 5px;
+}
+
+.sidefilter {
+    width: 310px;
+    padding-left: 0;
+}
+
+.toc-filter{
+    margin: 0;
+}
+
+.sidetoc {
+    width: 310px;
+}
+
+.grad-bottom {
+    background: none;
+}
+
+/*.toc .nav > li > .expand-stub::before, .toc .nav > li.active > .expand-stub::before {
+    content: "\FF34";
+}*/
