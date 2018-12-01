@@ -1,0 +1,640 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IShell
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IShell
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DockShell.Core.IShell">
+  
+  
+  <h1 id="DockShell_Core_IShell" data-uid="DockShell.Core.IShell" class="text-break">Interface IShell
+  </h1>
+  <div class="markdown level0 summary"><p>Orchestrates main menu, toolbar, tool windows and documents.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DockShell.Core.html">DockShell.Core</a></h6>
+  <h6><strong>Assembly</strong>: DockShell.dll</h6>
+  <h5 id="DockShell_Core_IShell_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IShell : IGuardClose, IDeactivate</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=55">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_ActiveLayoutItem_" data-uid="DockShell.Core.IShell.ActiveLayoutItem*"></a>
+  <h4 id="DockShell_Core_IShell_ActiveLayoutItem" data-uid="DockShell.Core.IShell.ActiveLayoutItem">ActiveLayoutItem</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the active layout item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ILayoutItem ActiveLayoutItem { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.ILayoutItem.html">ILayoutItem</a></td>
+        <td><p>The active layout item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=71">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_Documents_" data-uid="DockShell.Core.IShell.Documents*"></a>
+  <h4 id="DockShell_Core_IShell_Documents" data-uid="DockShell.Core.IShell.Documents">Documents</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of documents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyObservableCollection&lt;IDocument&gt; Documents { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyObservableCollection</span>&lt;<a class="xref" href="DockShell.Core.IDocument.html">IDocument</a>&gt;</td>
+        <td><p>The collection of documents.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=31">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_MainMenu_" data-uid="DockShell.Core.IShell.MainMenu*"></a>
+  <h4 id="DockShell_Core_IShell_MainMenu" data-uid="DockShell.Core.IShell.MainMenu">MainMenu</h4>
+  <div class="markdown level1 summary"><p>Gets the main menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMainMenu MainMenu { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.MenuModel.IMainMenu.html">IMainMenu</a></td>
+        <td><p>The main menu.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=63">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_SelectedDocument_" data-uid="DockShell.Core.IShell.SelectedDocument*"></a>
+  <h4 id="DockShell_Core_IShell_SelectedDocument" data-uid="DockShell.Core.IShell.SelectedDocument">SelectedDocument</h4>
+  <div class="markdown level1 summary"><p>Gets the selected document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDocument SelectedDocument { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.IDocument.html">IDocument</a></td>
+        <td><p>The selected document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=47">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_StatusBar_" data-uid="DockShell.Core.IShell.StatusBar*"></a>
+  <h4 id="DockShell_Core_IShell_StatusBar" data-uid="DockShell.Core.IShell.StatusBar">StatusBar</h4>
+  <div class="markdown level1 summary"><p>Gets the status bar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IStatusBar StatusBar { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.StatusBarModel.IStatusBar.html">IStatusBar</a></td>
+        <td><p>The status bar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_ToolBarContainer_" data-uid="DockShell.Core.IShell.ToolBarContainer*"></a>
+  <h4 id="DockShell_Core_IShell_ToolBarContainer" data-uid="DockShell.Core.IShell.ToolBarContainer">ToolBarContainer</h4>
+  <div class="markdown level1 summary"><p>Gets the toolbar container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IToolBarContainer ToolBarContainer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.ToolBarModel.IToolBarContainer.html">IToolBarContainer</a></td>
+        <td><p>The toolbar container.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=79">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_Tools_" data-uid="DockShell.Core.IShell.Tools*"></a>
+  <h4 id="DockShell_Core_IShell_Tools" data-uid="DockShell.Core.IShell.Tools">Tools</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of tools.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyObservableCollection&lt;ITool&gt; Tools { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyObservableCollection</span>&lt;<a class="xref" href="DockShell.Core.ITool.html">ITool</a>&gt;</td>
+        <td><p>The collection of tools.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=100">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_AddDocument_" data-uid="DockShell.Core.IShell.AddDocument*"></a>
+  <h4 id="DockShell_Core_IShell_AddDocument_DockShell_Core_IDocument_" data-uid="DockShell.Core.IShell.AddDocument(DockShell.Core.IDocument)">AddDocument(IDocument)</h4>
+  <div class="markdown level1 summary"><p>Adds the document (if not exists).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddDocument(IDocument document)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.IDocument.html">IDocument</a></td>
+        <td><span class="parametername">document</span></td>
+        <td><p>The document to be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Argument <code data-dev-comment-type="paramref" class="paramref">document</code> can't be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=122">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_ApplyState_" data-uid="DockShell.Core.IShell.ApplyState*"></a>
+  <h4 id="DockShell_Core_IShell_ApplyState_DockShell_Core_ShellState_System_IServiceProvider_" data-uid="DockShell.Core.IShell.ApplyState(DockShell.Core.ShellState,System.IServiceProvider)">ApplyState(ShellState, IServiceProvider)</h4>
+  <div class="markdown level1 summary"><p>Applies the state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ApplyState(ShellState state, IServiceProvider serviceProvider = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.ShellState.html">ShellState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IServiceProvider</span></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td><p>The service provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Argument <code data-dev-comment-type="paramref" class="paramref">state</code> can't be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=106">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_CloseDocument_" data-uid="DockShell.Core.IShell.CloseDocument*"></a>
+  <h4 id="DockShell_Core_IShell_CloseDocument_DockShell_Core_IDocument_" data-uid="DockShell.Core.IShell.CloseDocument(DockShell.Core.IDocument)">CloseDocument(IDocument)</h4>
+  <div class="markdown level1 summary"><p>Closes the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CloseDocument(IDocument document)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.IDocument.html">IDocument</a></td>
+        <td><span class="parametername">document</span></td>
+        <td><p>The document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=114">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_GetState_" data-uid="DockShell.Core.IShell.GetState*"></a>
+  <h4 id="DockShell_Core_IShell_GetState" data-uid="DockShell.Core.IShell.GetState">GetState()</h4>
+  <div class="markdown level1 summary"><p>Gets the actual shell's state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ShellState GetState()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.ShellState.html">ShellState</a></td>
+        <td><p>The captured state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=93">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_OpenDocument_" data-uid="DockShell.Core.IShell.OpenDocument*"></a>
+  <h4 id="DockShell_Core_IShell_OpenDocument_DockShell_Core_IDocument_" data-uid="DockShell.Core.IShell.OpenDocument(DockShell.Core.IDocument)">OpenDocument(IDocument)</h4>
+  <div class="markdown level1 summary"><p>Adds the document (if not exists) and activates it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OpenDocument(IDocument document)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.IDocument.html">IDocument</a></td>
+        <td><span class="parametername">document</span></td>
+        <td><p>The document to be opened.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Argument <code data-dev-comment-type="paramref" class="paramref">document</code> can't be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=86">View Source</a>
+  </span>
+  <a id="DockShell_Core_IShell_ShowTool_" data-uid="DockShell.Core.IShell.ShowTool*"></a>
+  <h4 id="DockShell_Core_IShell_ShowTool_DockShell_Core_ITool_" data-uid="DockShell.Core.IShell.ShowTool(DockShell.Core.ITool)">ShowTool(ITool)</h4>
+  <div class="markdown level1 summary"><p>Shows the tool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowTool(ITool tool)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DockShell.Core.ITool.html">ITool</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td><p>The tool.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Argument <code data-dev-comment-type="paramref" class="paramref">tool</code> can't be null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=23">View Source</a>
+  </span>
+  <h4 id="DockShell_Core_IShell_ActiveLayoutItemChanged" data-uid="DockShell.Core.IShell.ActiveLayoutItemChanged">ActiveLayoutItemChanged</h4>
+  <div class="markdown level1 summary"><p>Rised after the active layout item changed successfully.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler ActiveLayoutItemChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=18">View Source</a>
+  </span>
+  <h4 id="DockShell_Core_IShell_ActiveLayoutItemChanging" data-uid="DockShell.Core.IShell.ActiveLayoutItemChanging">ActiveLayoutItemChanging</h4>
+  <div class="markdown level1 summary"><p>Rised before changing the active alyout item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler ActiveLayoutItemChanging</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://michalpavlik.visualstudio.com/DockShell/_git/DockShell?path=src/DockShell/Core/IShell.cs&amp;version=GBmaster&amp;line=13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

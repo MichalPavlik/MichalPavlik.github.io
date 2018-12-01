@@ -1,0 +1,1173 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.Command.html",
+          "hash": "mNZUhSKMO28yvhOAT9nwcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.DelegateCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.DelegateCommand.html",
+          "hash": "TehM8syVzHSz7KqDGIWasg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.DockShellBootstrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.DockShellBootstrapper.html",
+          "hash": "53iZq7KlBZ6w2a8Zrywrhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.DockShellEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.DockShellEventListener.html",
+          "hash": "CKEnJUvj4bCooxIFJDrHiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.Document.html",
+          "hash": "j9tJkDHxJ8hALjMvue4bTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.Extensions.html",
+          "hash": "qa+MBqsVoA/M2Yes2T4AYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.IDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.IDocument.html",
+          "hash": "vsglNEswi79Qd3kWWSKXTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.IKeyboardExecutable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.IKeyboardExecutable.html",
+          "hash": "Hwg4XQlDWHivtBk5InN4vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ILayoutItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ILayoutItem.html",
+          "hash": "LBlAcnL2fGkjyX2251pysQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.IShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.IShell.html",
+          "hash": "m3D1qrJz3xclrjwfmyG9ZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ITool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ITool.html",
+          "hash": "CPKvpyrcUjCFX6HPq0h18A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.KeyGestures.ComposableKeyGesture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.KeyGestures.ComposableKeyGesture.html",
+          "hash": "BJPEtS0qbUUfSFEOgFuiPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.KeyGestures.Key.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.KeyGestures.Key.html",
+          "hash": "VWkfRzIBQyH3YS2c/uFyZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.KeyGestures.KeyGestureSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.KeyGestures.KeyGestureSequence.html",
+          "hash": "MPrDGTIlHLaGqK9n1evvjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.KeyGestures.KeyGestureSequenceBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.KeyGestures.KeyGestureSequenceBuilder.html",
+          "hash": "vrPLFV7VU9qDJXj8x7xEaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.KeyGestures.ModifierKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.KeyGestures.ModifierKeys.html",
+          "hash": "DIlB7mVeYkz5mon7/LVyCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.KeyGestures.SingleKeyGesture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.KeyGestures.SingleKeyGesture.html",
+          "hash": "fHvYe2Oghtitr+JtG+rWrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.KeyGestures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.KeyGestures.html",
+          "hash": "91TwlZJk/JE3djCdrZOwAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.LayoutItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.LayoutItem.html",
+          "hash": "09WVqrsE8vwJhjTsXoKB0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.LayoutItemState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.LayoutItemState.html",
+          "hash": "pCl7FmDdge8VoE2mhFLTXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MainWindow.html",
+          "hash": "QWew+sC6n8r+yhQXUi+T+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.CommandMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.CommandMenuItem.html",
+          "hash": "SdTq95ry1yBAcnfeKc6f2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.DelegateMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.DelegateMenuItem.html",
+          "hash": "5hLcpkys19dSBFckcyykyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.IMainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.IMainMenu.html",
+          "hash": "WBxmTQBkn7dZAbxdNdJT3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.IMainMenuBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.IMainMenuBuilder.html",
+          "hash": "U+iNNfrfRum/8b8XHlbBjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.IMenuBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.IMenuBuilder.html",
+          "hash": "TZOvv/DgxpwUD0anESyYPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.IMenuItemContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.IMenuItemContainer.html",
+          "hash": "lM9RBiZvc6pRK+IethQdTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.MainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.MainMenu.html",
+          "hash": "up9cBpFWrdYMPAv7KEfwWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.MenuExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.MenuExtensions.html",
+          "hash": "mGMo6639hYYZOnRgJAZYaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.MenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.MenuItem.html",
+          "hash": "JFPZd0XKcx7MGxjjmPwu0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.MenuModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.MenuModel.html",
+          "hash": "uWjWEfxQm4KOFQKQd4o2hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.PersistableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.PersistableAttribute.html",
+          "hash": "txIcIPVCP6mZnXdgIGnbXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.Shell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.Shell.html",
+          "hash": "k+6/jY6LaCXIyypdgv0Ezg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ShellState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ShellState.html",
+          "hash": "U4WDGIns73kXE8vaUZL4xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.StatusBarModel.ButtonStatusBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.StatusBarModel.ButtonStatusBarItem.html",
+          "hash": "00RcUFDbzQLz/g9gV0tqag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.StatusBarModel.IStatusBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.StatusBarModel.IStatusBar.html",
+          "hash": "QPASpenHspOnI/w6G27W8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.StatusBarModel.StatusBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.StatusBarModel.StatusBar.html",
+          "hash": "N5aVyxuUortzslOnZZ3d5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.StatusBarModel.StatusBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.StatusBarModel.StatusBarItem.html",
+          "hash": "H9P4nahULyb65c0ktBTT3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.StatusBarModel.StatusBarItemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.StatusBarModel.StatusBarItemGroup.html",
+          "hash": "/0HzgaajkQklshSlYf2vrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.StatusBarModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.StatusBarModel.html",
+          "hash": "elkhGLSW1k0OOFtpXEcwew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.Tool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.Tool.html",
+          "hash": "Madk7PAgmCvHQZ2TYOaSDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ButtonBasedToolBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ButtonBasedToolBarItem.html",
+          "hash": "Dx9magaFpBwGRNWCry2tIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ButtonToolBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ButtonToolBarItem.html",
+          "hash": "fXvLYis3g0DXkR3HEzNoHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ComboBoxToolBarItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ComboBoxToolBarItem-1.html",
+          "hash": "9Y2VVxKjcKsOoEkUh2ZNzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.CommandToolBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.CommandToolBarItem.html",
+          "hash": "t+HaGLe8F8oVwh8OXp2HWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.DropDownButtonToolBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.DropDownButtonToolBarItem.html",
+          "hash": "uTlztsfsUUa7Zv86tTTW0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.IToolBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.IToolBar.html",
+          "hash": "5Sip3MaVRsQ89zAWi/4wcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.IToolBarBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.IToolBarBuilder.html",
+          "hash": "xymVYqcYzuxhQDOslQ+Rgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.IToolBarContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.IToolBarContainer.html",
+          "hash": "rTN3uE5EoXM2sc13V29ElQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.IToolBarContainerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.IToolBarContainerBuilder.html",
+          "hash": "+6h1ggEuNHv+6zBrs9LadQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.SplitButtonToolBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.SplitButtonToolBarItem.html",
+          "hash": "WRpeiI98YK7gueaQe78C6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ToolBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ToolBar.html",
+          "hash": "Z+4fTJs1lvtidzLBl/uT3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ToolBarContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ToolBarContainer.html",
+          "hash": "pdnyVZr1DvtwGGTWtx4X9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ToolBarExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ToolBarExtensions.html",
+          "hash": "JGGq2tHCJdJOI8+s/NAHGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ToolBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ToolBarItem.html",
+          "hash": "LmTqwuUY1ubBLX6qjCYXgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.ToolBarItemDisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.ToolBarItemDisplayMode.html",
+          "hash": "plg+3G0+ip4RYrAOb30PGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolBarModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolBarModel.html",
+          "hash": "xfyx+nnZaeba6VcDGpHNpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ToolLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ToolLocation.html",
+          "hash": "l2LyCWLvvR10Qsp1lX7JzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.ViewFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.ViewFactory.html",
+          "hash": "p7zJ3XZnrZHnTTdsJg8kqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Core.html",
+          "hash": "eCF9AeQc9xjkwL/W7iyJpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Controls.ActivityIndicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Controls.ActivityIndicator.html",
+          "hash": "OwfuKC4IlZzmF6eMUoMLGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Controls.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Controls.Menu.html",
+          "hash": "KyCPaTyaQdYDa2hroynCDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Controls.SplitButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Controls.SplitButton.html",
+          "hash": "E5bAVOnotoU3//aR0QocGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Controls.html",
+          "hash": "U+h/8kit/j06URB7p8FgTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Converters.LeftMarginMultiplierConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Converters.LeftMarginMultiplierConverter.html",
+          "hash": "Cm/cD/f61JOy++rKAsTe4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Converters.NullableValueConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Converters.NullableValueConverter.html",
+          "hash": "+EiXwE94fAk2bOPEPqLGSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Converters.html",
+          "hash": "M5095Rf/NjnkCeNLE0uKoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.LayoutItemStyleSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.LayoutItemStyleSelector.html",
+          "hash": "fZB8gtLp2Z8zw9trHvESIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.LayoutItemTemplateSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.LayoutItemTemplateSelector.html",
+          "hash": "1HWY9ccLG5uCE5wwBl4hhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.MenuItemContainerStyleSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.MenuItemContainerStyleSelector.html",
+          "hash": "aQJKGHA6AujK+SXgbZM49g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.ShaderEffects.ShaderEffect-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.ShaderEffects.ShaderEffect-1.html",
+          "hash": "TVcTruY8KU2NLSF/w3+47g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.ShaderEffects.ThemedImageEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.ShaderEffects.ThemedImageEffect.html",
+          "hash": "velC1lQFyTA5P7cCFH9JGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.ShaderEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.ShaderEffects.html",
+          "hash": "utjIBVVgl3tzwBM9TKt6+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.ToolBarItemTemplateSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.ToolBarItemTemplateSelector.html",
+          "hash": "v1bexueu92aju+P8vO+hSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Views.MainMenuView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Views.MainMenuView.html",
+          "hash": "HIN5rzHxBHkKTsEekCQtmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Views.MainWindowView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Views.MainWindowView.html",
+          "hash": "M2Z7/Re0cJoQAF1UuT38VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Views.ShellView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Views.ShellView.html",
+          "hash": "zp0jY9LgJJnrap7MAv/VrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Views.StatusBarView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Views.StatusBarView.html",
+          "hash": "6tlv1zM+SGp5PVBwt8yicg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.Views.html",
+          "hash": "X1uAe4wbMFTO1u7w9v5bZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Presentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Presentation.html",
+          "hash": "uaZUZmMkKFCw4y8DWUBRIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.BlueTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.BlueTheme.html",
+          "hash": "WKvXk/70R/xlKkloUrf72w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.DarkTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.DarkTheme.html",
+          "hash": "35G7ezWvCRXsqh5Io7UCBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.IThemeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.IThemeManager.html",
+          "hash": "+/ua4941k5kMfPvjlKpMoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.LightTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.LightTheme.html",
+          "hash": "uXPojD/L0H/9Smgei8qrrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.StyleKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.StyleKeys.html",
+          "hash": "YU6L6fE9GdQNwl5LA66Kuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.Theme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.Theme.html",
+          "hash": "IXdll3Zk7T8Ykc2spa2bSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.ThemeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.ThemeManager.html",
+          "hash": "1jFErx1sbWNmqS9oM32e0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DockShell.Themes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DockShell.Themes.html",
+          "hash": "AN9+zoX8zaOJUTNITRL4Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "xsLkhUZkz+um+fzLHlkOJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "2SD/PSW5/uDoJ+mqlW15pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "1Pd7iqdrx7eUjtC98FdzrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "RvwF/p5O3ClVq5eMOV8jQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
